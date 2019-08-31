@@ -4,6 +4,8 @@ def call
   time = Time.now
   
   resp.write "#{time}\n"
+  
+  if time.hour
 end
 
 end
