@@ -3,7 +3,7 @@ def call
   resp = Rack::Response.new
   time = Time.now
   
-  resp.write
+  resp.write "#{time}\n"
 end
 
 end
