@@ -5,7 +5,9 @@ def call
   
   resp.write "#{time}\n"
   
-  if time.hour
+  if time.hour > 12
+  resp.write "Good Afternoon!"
+else
 end
 
 end
